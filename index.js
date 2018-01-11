@@ -1,5 +1,5 @@
-var musicians = {}
-var instruments = {}
+var musicians = []
+var instruments = []
 
 function theBeatlesPlay(){
   var arr = {}
