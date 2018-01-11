@@ -1,6 +1,6 @@
 var musicians = []
 var instruments = []
-const arrFacts = [  "He was the last Beatle to learn to drive",   
+const facts = [  "He was the last Beatle to learn to drive",   
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice" ]
@@ -14,11 +14,12 @@ function theBeatlesPlay(musicians, instruments){
   return arr
 }
 
-function johnLennonFacts(arrFacts){
+function johnLennonFacts(facts){
   var arr = []
   var i = 0
-  while(i < arrFacts.length){
-    arr[i] = arrFacts[i] + "!!!"
+  
+  while(i < facts.length){
+    arr[i] = facts[i] + "!!!"
     i++
   }
 }
