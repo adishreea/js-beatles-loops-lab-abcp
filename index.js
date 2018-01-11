@@ -12,3 +12,13 @@ function theBeatlesPlay(){
 function johnLennonFacts(arrFacts){
   
 }
+
+
+function iLoveTheBeatles(num){
+  var arr = {}
+  vari = 0
+  do{
+    arr.push("I love the Beatles!")
+    i++
+  } while();
+}
