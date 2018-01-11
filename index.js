@@ -7,7 +7,7 @@ const facts = [  "He was the last Beatle to learn to drive",
 
 function theBeatlesPlay(musicians, instruments){
   var arr = []
-  
+   
   for (var i = 0; i < musicians.length; i++){
     arr[i] = musicians[i] + " plays " + instruments[i]
   }
